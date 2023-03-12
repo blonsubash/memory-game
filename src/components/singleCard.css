@@ -1,0 +1,67 @@
+.card {
+  position: relative;
+  height: 216px;
+  width: 140px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+.card .card-front {
+  transform: rotateY(90deg);
+  position: absolute;
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all ease-in 0.2s;
+}
+
+.card .card-front-numbers {
+  display: flex;
+  width: 100%;
+}
+
+.card .card-front-top-number {
+  padding-left: 4px;
+}
+
+.card .card-front-numbers p {
+  margin: 0;
+  font-size: 1.75rem;
+  color: rgb(97 94 94);
+}
+
+.card .card-type-image {
+  /* width: 80%; */
+  /* min-width: 80%; */
+  min-height: 70%;
+  height: 70%;
+}
+
+.card .card-front-bottom-number {
+  transform: rotateZ(180deg);
+  width: 100%;
+  text-align: left;
+  padding-left: 4px;
+}
+
+.flipped .card-front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+  border: 1px solid rgb(94, 94, 94);
+}
+
+.card .card-back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+.flipped .card-back {
+  /* display: none; */
+  transform: rotateY(90deg);
+  transition-delay: 0.2s;
+}
