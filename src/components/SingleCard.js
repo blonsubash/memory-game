@@ -1,10 +1,10 @@
 import "./singleCard.css";
 
-import backCard from "../images/card-back.jpg";
+import club from "../images/club.png";
 import spade from "../images/spade.png";
 import heart from "../images/heart.png";
 import diamond from "../images/diamond.png";
-import club from "../images/club.png";
+import backCard from "../images/card-back.jpg";
 
 export default function SingleCard({
   card,

@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
+
 import "./App.css";
-import SingleCard from "./components/SingleCard";
+
 import { cardsList } from "./utilis/cards";
+import SingleCard from "./components/SingleCard";
 
 function App() {
   const [cards, setCards] = useState([]);

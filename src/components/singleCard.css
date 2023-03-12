@@ -37,8 +37,6 @@
 }
 
 .card .card-type-image {
-  /* width: 80%; */
-  /* min-width: 80%; */
   min-height: 70%;
   height: 70%;
 }
@@ -61,7 +59,6 @@
   transition-delay: 0.2s;
 }
 .flipped .card-back {
-  /* display: none; */
   transform: rotateY(90deg);
   transition-delay: 0.2s;
 }
